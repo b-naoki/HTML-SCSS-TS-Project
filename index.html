@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>バカラ</title>
+</head>
+<body>
+    <div class="game-container">
+        <h1>バカラ</h1>
+        <div class="table">
+            <div class="player-area">
+                <h2>プレイヤー</h2>
+                <div class="cards" id="player-cards"></div>
+                <div class="score" id="player-score">0</div>
+            </div>
+            <div class="banker-area">
+                <h2>バンカー</h2>
+                <div class="cards" id="banker-cards"></div>
+                <div class="score" id="banker-score">0</div>
+            </div>
+        </div>
+        <button id="deal-button">カードを引く</button>
+        <div class="result" id="result-message"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
